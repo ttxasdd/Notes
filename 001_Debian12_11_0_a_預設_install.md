@@ -223,13 +223,13 @@ EOF
 
 apt install snmpd snmp smistrip -y
 
-wget http://ftp.us.debian.org/debian/pool/non-free/s/snmp-mibs-downloader/snmp-mibs-downloader_1.6_all.deb
+wget http://ftp.us.debian.org/debian/pool/non-free/s/snmp-mibs-downloader/snmp-mibs-downloader_1.8_all.deb
 
-dpkg -i snmp-mibs-downloader_1.6_all.deb
+dpkg -i snmp-mibs-downloader_1.8_all.deb
 
 apt-get install open-vm-tools open-vm-tools-desktop -y
 
-rm snmp-mibs-downloader_1.6_all.deb
+rm snmp-mibs-downloader_1.8_all.deb
 
 cat <<EOF > /etc/network/interfaces
 # This file describes the network interfaces available on your system
