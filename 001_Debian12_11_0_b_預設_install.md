@@ -74,7 +74,10 @@ apt install fping graphviz imagemagick mtr-tiny acl tmux -y
 apt install fail2ban -y
 apt install cmake -y
 apt install libpython3.13-dev -y
+apt install apt-show-versions -y
+# 檢查套件 apt-show-versions vim
 # apt install python3.10-dev
+# 
 # 稽核指令
 apt install auditd -y
 # 硬碟擴展
