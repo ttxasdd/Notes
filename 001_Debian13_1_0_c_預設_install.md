@@ -56,7 +56,7 @@ make altinstall
 # update-alternatives --install /usr/bin/python python /usr/bin/python3.10 1
 update-alternatives --install /usr/bin/python python /usr/bin/python3.11 1
 #
-update-alternatives --install /usr/bin/python python /usr/local/bin/python3.13 2
+update-alternatives --install /usr/bin/python python /usr/local/bin/python3.14 2
 
 #apt install python3-pip -y
 
