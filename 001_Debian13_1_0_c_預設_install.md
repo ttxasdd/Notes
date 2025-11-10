@@ -272,7 +272,8 @@ sed -i 's/# set bell-style none/set bell-style none/g' /etc/inputrc
 #sed -i 's/#net.ipv6.conf.all.disable_ipv6 = 1/net.ipv6.conf.all.disable_ipv6 = 1/g' /etc/sysctl.conf
 #
 # /usr/local/bin/python3.10 -m pip install --upgrade pip
-/usr/local/bin/python3.13 -m pip install --upgrade pip
+# /usr/local/bin/python3.13 -m pip install --upgrade pip
+/usr/local/bin/pip3.14 -m pip install --upgrade pip
 #
 
 pip install Stats
