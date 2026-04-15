@@ -333,7 +333,7 @@ pip install sqlalchemy-utils
 
 pip install influxdb-client
 
-apt install -y idle idle3
+apt install -y idle
 
 
 cat <<'EOF' > /etc/bash.bashrc
