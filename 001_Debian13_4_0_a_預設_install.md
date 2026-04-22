@@ -293,7 +293,7 @@ pip install Stats
 
 pip install f5-sdk
 
-pip install bigsuds
+# pip install bigsuds
 
 pip install netaddr
 
